@@ -1,7 +1,9 @@
 pcp
 ===
 
-Copy a directory tree using a configurable number of parallel processes
+Copy a directory tree using a configurable number of parallel processes.
+
+Most likely, you don't need it. If you read from and/or write to a simple HDD, it can only do one thing at a time, more or less. This script was instead written for testing purposes with a special IO backend.
 
 
 Usage
